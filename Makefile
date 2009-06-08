@@ -14,4 +14,4 @@ bfc-x86-64: bfc.c
 	clang -O3 -arch x86_64 -o bfc-x86-64 bfc.c
 
 clean:
-	rm -f bfc bfc-x86 bfc-ppc bfc-x86-64 bfc-ppc32
+	rm -f bfc bfc-x86 bfc-ppc bfc-x86-64 bfc-ppc64
